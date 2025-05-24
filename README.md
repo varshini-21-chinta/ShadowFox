@@ -1,4 +1,5 @@
 //1)Enhanced Console-based Calculator:
+
 import java.util.*;
 
 public class calculator {
@@ -159,18 +160,17 @@ public class calculator {
 
     
 //2)Simple Contact Management System:
+ 
  import java.util.*;
  class Contact{
     String name;
     String email;
     String number;
-
-    Contact(String n,String nu,String e){
+   Contact(String n,String nu,String e){
      name=n;
      number=nu;
      email=e;
     }
-
 }
 public class ContactManagement{
   static Scanner sc=new Scanner(System.in);
@@ -276,6 +276,8 @@ public class ContactManagement{
 
 // Intermediate:
  //1)Bank Account Management System with Unit Testing (JUnit):
+
+
 import java.util.*;
   public class AccountManagement{
         String Name;
@@ -407,6 +409,8 @@ public class BankManagementTest {
 
 
 //2)Inventory Management System with Basic GUI:
+
+
  import javax.swing.*;
  import java.awt.*;
 import java.awt.event.ActionEvent;
